@@ -1,0 +1,30 @@
+/* general */
+
+li {
+  list-style: none;
+}
+
+
+
+/* footer */
+#footer-icon {
+  color: black;
+}
+
+/* projects */
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+  height: 70vw;
+}
+
+.box {
+  display: flex;
+  align-items: flex-end;
+  width: 30vw;
+  height: 30vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
