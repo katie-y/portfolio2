@@ -16,7 +16,7 @@ class App extends Component {
     return (
 
       <div className="App">
-        <BrowserRouter>
+        {/* <BrowserRouter>
           <NavBar home='/'/>
           <Switch>
             <Route path="/" component={Home} exact/>
@@ -27,7 +27,18 @@ class App extends Component {
 
           </Switch>
         </BrowserRouter>
-        <Footer />
+        <Footer /> */}
+        <BrowserRouter>
+          <NavBar />
+          <Switch>
+            <Route path="/" component={Home} exact/>
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+
+
+          </Switch>
+        </BrowserRouter>
       </div>
     );
   }

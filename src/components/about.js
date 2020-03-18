@@ -1,9 +1,9 @@
 import React from 'react';
 
 const About = () => {
-    return <div>
+    return <div className='about-page' >
     <h1>About</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <p className='about-info'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Similique veniam natus ad mollitia dolorem dolores, eos 
     facere beatae! Ipsam in quas mollitia illo deserunt, vero 
     error temporibus reprehenderit deleniti natus? Quibusdam 
@@ -17,7 +17,7 @@ const About = () => {
     error. Eum quidem ex similique esse perspiciatis saepe, 
     perferendis cumque. Rerum dicta aut ullam id, expedita 
     commodi neque natus illum minima.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <p className='about-info'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Similique veniam natus ad mollitia dolorem dolores, eos 
     facere beatae! Ipsam in quas mollitia illo deserunt, vero 
     error temporibus reprehenderit deleniti natus? Quibusdam 
